@@ -21,7 +21,7 @@ public class ConsultaNomeController {
 
 
     @GetMapping("/consultaNome/{nome}")
-    public Estudante consultaMatricula(@PathVariable String nome){
+    public List<Estudante> consultaMatricula(@PathVariable String nome){
         return repository.findByNome(nome);
     }
 }

@@ -1,37 +1,54 @@
 version: "3"
-
 services:
   microsservico_GetDisciplina:
+    build:
+      context: ./microsservico_GetDisciplina
+      dockerfile: Dockerfile
     image: imagem_getdisciplina
     container_name: getdisciplina
     ports:
       - "8080:8080"
 
   microsservico_RegistraDisciplina:
+    build:
+      context: ./microsservico_RegistraDisciplina
+      dockerfile: Dockerfile
     image: imagem_registradisciplina
     container_name: registradisciplina
     ports:
       - "8081:8080"
 
   microsservico_GetEstudante:
+    build:
+      context: ./microsservico_GetEstudante
+      dockerfile: Dockerfile
     image: imagem_getestudante
     container_name: getestudante
     ports:
       - "8082:8080"
 
   microsservico_RegistraEstudante:
+    build:
+      context: ./microsservico_RegistraEstudante
+      dockerfile: Dockerfile
     image: imagem_registraestudante
     container_name: registraestudante
     ports:
       - "8083:8080"
 
   microsservico_ConsultaMatricula:
+    build:
+      context: ./microsservico_ConsultaMatricula
+      dockerfile: Dockerfile
     image: imagem_consultamatricula
     container_name: consultamatricula
     ports:
       - "8084:8080"
 
   microsservico_ConsultaNome:
+    build:
+      context: ./microsservico_ConsultaNome
+      dockerfile: Dockerfile
     image: imagem_consultanome
     container_name: consultanome
     ports:

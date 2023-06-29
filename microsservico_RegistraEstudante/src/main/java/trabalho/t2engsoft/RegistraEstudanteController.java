@@ -12,8 +12,8 @@ public class RegistraEstudanteController {
     private EstudanteRepository repository;
 
 
-    @PostMapping("/registraPg")
-    public void registraEstudantePg(@RequestBody Estudante estudante) {
+    @PostMapping("/registra")
+    public void registraEstudante(@RequestBody Estudante estudante) {
         repository.save(estudante);
     }
 

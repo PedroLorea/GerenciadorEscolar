@@ -2,7 +2,9 @@ package trabalho.t2engsoft;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface EstudanteRepository extends JpaRepository<Estudante, Integer> {
 
-    Estudante findByNome(String nome);
+    List<Estudante> findByNome(String nome);
 }

@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  microsservico_GetDisciplina:
+    image: imagem_getdisciplina
+    container_name: getdisciplina
+    ports:
+      - "8080:8080"
+
+  microsservico_RegistraDisciplina:
+    image: imagem_registradisciplina
+    container_name: registradisciplina
+    ports:
+      - "8081:8080"
+
+  microsservico_GetEstudante:
+    image: imagem_getestudante
+    container_name: getestudante
+    ports:
+      - "8082:8080"
+
+  microsservico_RegistraEstudante:
+    image: imagem_registraestudante
+    container_name: registraestudante
+    ports:
+      - "8083:8080"
+
+  microsservico_ConsultaMatricula:
+    image: imagem_consultamatricula
+    container_name: consultamatricula
+    ports:
+      - "8084:8080"
+
+  microsservico_ConsultaNome:
+    image: imagem_consultanome
+    container_name: consultanome
+    ports:
+      - "8085:8080"

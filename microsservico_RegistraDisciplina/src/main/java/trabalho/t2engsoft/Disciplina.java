@@ -1,32 +1,25 @@
 package trabalho.t2engsoft;
 
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Disciplina {
-
     @Id
-    String codigoDisciplina;
+    int codigoDisciplina;
     String descricao;
     String horario;
     int codigoTurma;
 
-//    @JsonIgnore
-//    HashMap<Estudante, Integer> estudantesMatriculados = new HashMap<>(); //Hashmap com Estudante e a Turma
+    ArrayList<Integer> estudantesMatriculados = new ArrayList<>(); // ArrayList com números de matrícula
 
-    public String getCodigoDisciplina() {
+    public int getCodigoDisciplina() {
         return codigoDisciplina;
     }
 
-    public void setCodigoDisciplina(String codigoDisciplina) {
+    public void setCodigoDisciplina(int codigoDisciplina) {
         this.codigoDisciplina = codigoDisciplina;
     }
 
@@ -38,11 +31,11 @@ public class Disciplina {
         this.descricao = descricao;
     }
 
-    public String getHorario(){
+    public String getHorario() {
         return horario;
     }
 
-    public void setHorario(String horario){
+    public void setHorario(String horario) {
         this.horario = horario;
     }
 
@@ -54,32 +47,15 @@ public class Disciplina {
         this.codigoTurma = codigoTurma;
     }
 
+    public List<Integer> getEstudantesMatriculados() {
+        return estudantesMatriculados;
+    }
 
-//    public List<Estudante> getEstudantesMatriculadosLista() {
-//        List<Estudante> estudantesMatriculadosLista = new ArrayList<>();
-//
-//        for (Map.Entry<Estudante, Integer> entry : estudantesMatriculados.entrySet()) {
-//            Estudante estudante = entry.getKey();
-//            estudantesMatriculadosLista.add(estudante);
-//        }
-//        return estudantesMatriculadosLista;
-//    }
+    public void matriculaEstudante(int numeroMatricula) {
+        estudantesMatriculados.add(numeroMatricula);
+    }
 
-//    public Map<Estudante, Integer> getEstudantesMatriculados(){
-//        return estudantesMatriculados;
-//    }
-
-
-//    public void matriculaEstudante(Estudante estudante, int codigoTurma){
-//        estudantesMatriculados.put(estudante, codigoTurma);
-//    }
-//
-//    public Estudante getEstudanteMatricula(int matricula){
-//        for (Map.Entry<Estudante, Integer> entry : estudantesMatriculados.entrySet()) {
-//            Estudante estudante = entry.getKey();
-//            if(estudante.getMatricula() == matricula) return estudante;
-//        }
-//        return null;
-//    }
-
+    public boolean estaEstudanteMatriculado(int numeroMatricula) {
+        return estudantesMatriculados.contains(numeroMatricula);
+    }
 }

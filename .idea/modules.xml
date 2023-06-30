@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaEstudanteDisciplina/microsservico_ConsultaEstudanteDisciplina.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaEstudanteDisciplina/microsservico_ConsultaEstudanteDisciplina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaEstudanteTurma/microsservico_ConsultaEstudanteTurma.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaEstudanteTurma/microsservico_ConsultaEstudanteTurma.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaMatricula/microsservico_ConsultaMatricula.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaMatricula/microsservico_ConsultaMatricula.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaNome/microsservico_ConsultaNome.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaNome/microsservico_ConsultaNome.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_GetDisciplina/microsservico_GetDisciplina.iml" filepath="$PROJECT_DIR$/microsservico_GetDisciplina/microsservico_GetDisciplina.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_GetEstudante/microsservico_GetEstudante.iml" filepath="$PROJECT_DIR$/microsservico_GetEstudante/microsservico_GetEstudante.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsservico_MatriculaEstudante/microsservico_MatriculaEstudante.iml" filepath="$PROJECT_DIR$/microsservico_MatriculaEstudante/microsservico_MatriculaEstudante.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_RegistraDisciplina/microsservico_RegistraDisciplina.iml" filepath="$PROJECT_DIR$/microsservico_RegistraDisciplina/microsservico_RegistraDisciplina.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_RegistraEstudante/microsservico_RegistraEstudante.iml" filepath="$PROJECT_DIR$/microsservico_RegistraEstudante/microsservico_RegistraEstudante.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/t2engsoftCerto.iml" filepath="$PROJECT_DIR$/.idea/t2engsoftCerto.iml" />

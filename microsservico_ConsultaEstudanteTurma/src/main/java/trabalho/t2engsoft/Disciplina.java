@@ -8,18 +8,18 @@ import java.util.List;
 @Entity
 public class Disciplina {
     @Id
-    int codigoDisciplina;
+    String codigoDisciplina;
     String descricao;
     String horario;
     int codigoTurma;
 
     ArrayList<Integer> estudantesMatriculados = new ArrayList<>(); // ArrayList com números de matrícula
 
-    public int getCodigoDisciplina() {
+    public String getCodigoDisciplina() {
         return codigoDisciplina;
     }
 
-    public void setCodigoDisciplina(int codigoDisciplina) {
+    public void setCodigoDisciplina(String codigoDisciplina) {
         this.codigoDisciplina = codigoDisciplina;
     }
 

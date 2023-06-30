@@ -53,3 +53,30 @@ services:
     container_name: consultanome
     ports:
       - "8085:8080"
+
+  microsservico_ConsultaEstudanteTurma:
+    build:
+      context: ./microsservico_ConsultaEstudanteTurma
+      dockerfile: Dockerfile
+    image: imagem_consultaestudanteturma
+    container_name: consultaestudanteturma
+    ports:
+      - "8086:8080"
+
+  microsservico_MatriculaEstudante:
+    build:
+      context: ./microsservico_MatriculaEstudante
+      dockerfile: Dockerfile
+    image: imagem_matriculaestudante
+    container_name: matriculaestudante
+    ports:
+      - "8087:8080"
+
+  microsservico_ConsultaEstudanteDisciplina:
+    build:
+      context: ./microsservico_ConsultaEstudanteDisciplina
+      dockerfile: Dockerfile
+    image: imagem_consultaestudantedisciplina
+    container_name: consultaestudantedisciplina
+    ports:
+      - "8088:8080"

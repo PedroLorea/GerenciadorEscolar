@@ -10,7 +10,6 @@
         <module name="microsservico_ConsultaNome" />
         <module name="microsservico_MatriculaEstudante" />
         <module name="microsservico_GetEstudante" />
-        <module name="microsservico_ConsultaEstudanteDisciplina" />
         <module name="microsservico_GetDisciplina" />
         <module name="microsservico_ConsultaMatricula" />
         <module name="microsservico_ConsultaEstudanteTurma" />

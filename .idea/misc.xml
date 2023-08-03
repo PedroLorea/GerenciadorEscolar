@@ -14,7 +14,6 @@
         <option value="$PROJECT_DIR$/microsservico_ConsultaNome/pom.xml" />
         <option value="$PROJECT_DIR$/microsservico_MatriculaEstudante/pom.xml" />
         <option value="$PROJECT_DIR$/microsservico_ConsultaEstudanteTurma/pom.xml" />
-        <option value="$PROJECT_DIR$/microsservico_ConsultaEstudanteDisciplina/pom.xml" />
       </list>
     </option>
   </component>

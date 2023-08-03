@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaEstudanteDisciplina/microsservico_ConsultaEstudanteDisciplina.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaEstudanteDisciplina/microsservico_ConsultaEstudanteDisciplina.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaEstudanteTurma/microsservico_ConsultaEstudanteTurma.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaEstudanteTurma/microsservico_ConsultaEstudanteTurma.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaMatricula/microsservico_ConsultaMatricula.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaMatricula/microsservico_ConsultaMatricula.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsservico_ConsultaNome/microsservico_ConsultaNome.iml" filepath="$PROJECT_DIR$/microsservico_ConsultaNome/microsservico_ConsultaNome.iml" />

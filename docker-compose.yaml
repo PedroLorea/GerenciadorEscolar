@@ -71,12 +71,3 @@ services:
     container_name: matriculaestudante
     ports:
       - "8087:8080"
-
-  microsservico_ConsultaEstudanteDisciplina:
-    build:
-      context: ./microsservico_ConsultaEstudanteDisciplina
-      dockerfile: Dockerfile
-    image: imagem_consultaestudantedisciplina
-    container_name: consultaestudantedisciplina
-    ports:
-      - "8088:8080"
